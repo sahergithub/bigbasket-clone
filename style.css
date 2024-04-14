@@ -43,6 +43,9 @@
   margin: 10px;
   text-decoration: none;
 }
+#loginForm{
+  background-color: #addd9f;
+}
 #location{
   display: flex;
 }
