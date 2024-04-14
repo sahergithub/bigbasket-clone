@@ -19,15 +19,33 @@
       <div id="location">
         <button>
          <i class="fa-regular fa-compass"></i>
+         <br>
          <p>Select Location</p>
         </button>
       </div>
 
       <div id="login-signUp">
-       <button>Login</button>
-       <!-- <span style="color: #ffffff; margin-top: 12px;">/</span> -->
-       <button>Sign <br> Up</button>
+       <button id="loginButton" style="background-color: black; color: white;">Login</button>
+       <span style="color: #ffffff; margin-top: 12px;">/</span>
+       <button style="background-color: black; color: white; ">Sign Up</button>
       </div>
+
+      <div id="loginForm" style="display: none;">
+        <form id="loginFormContent">
+            <span id="closeButton">&times;</span>
+            <h2>Login</h2>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    
       <div id="basket">
        <i class="fa-solid fa-basket-shopping"></i>
        <p>My Basket</p>
